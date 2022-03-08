@@ -17,18 +17,23 @@ function Home() {
                 </article>
             </div>
             <div className='container'>
-                <div className='container'>
+                <div className='container donation-home'>
                     <p className='h3'>Make a Donation</p>
-                    <div className="input-group mb-3">
-                        <span className="input-group-text">K</span>
-                        <span className="input-group-text">0.00</span>
-                        <input type="number" class="form-control" id='user-donation' />
-                    </div>
-                    <p>Choose your Currency</p>
-                    <MyForm />
-                    <Link to='/Donate'>Donate</Link>
-                </div>
+                    <div className='row'>
+                        <div className='col'>
+                            <MyForm />
+                            <button className='btn btn-warning'>Donate</button>
+                        </div>
+                        <div className='col'>
+                            <div className="input-group mb-3">
+                                <span className="input-group-text">K</span>
+                                <span className="input-group-text">0.00</span>
+                                <input type="number" class="form-control" id='user-donation' />
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
             </div>
             <Footer />
         </div>

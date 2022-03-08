@@ -1,11 +1,20 @@
 .mission-home{
   background-color: #6D7993;
-  margin-top: 2%;
+  margin-top: 10%;
   padding: 4%;
-
+  border-radius: 1%;
+}
+.donation-home{
+  margin: 2%;
+  padding: 4%;
+}
+.footer-icon{
+  width: 40px;
+  height: auto;
 }
 
-.footer-icon{
-  width: 60px;
-  height: auto;
+@media screen and (max-width: 550px) {
+  .mission-home{
+    margin-top: 20%;
+  }
 }

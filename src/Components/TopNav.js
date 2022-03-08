@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 function TopNav() {
     return (
-        <Navbar bg="dark" expand="lg">
+        <Navbar bg="dark" expand="lg" className='fixed-top'>
             <Container>
                 <Navbar.Brand className='text-white'>LOGO</Navbar.Brand>
                 <Navbar.Toggle />

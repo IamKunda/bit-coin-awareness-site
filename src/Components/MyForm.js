@@ -20,6 +20,13 @@ function MyForm() {
                         type={type}
                         id={`inline-${type}-2`}
                     />
+                    <Form.Check
+                        inline
+                        label="Dollar"
+                        name="group1"
+                        type={type}
+                        id={`inline-${type}-3`}
+                    />
                     
                 </div>
             ))}
