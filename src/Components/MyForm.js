@@ -15,12 +15,18 @@ function MyForm() {
          * amount and 
          * currency.
          */
-        if(amount==0){
+        if(amount===0){
             alert('Please enter an amount')
         }
         else{
+            if(currency===''){
+                alert("Please choose a currency")
+            }
+            else{
+
             /** If you are writing any Backend(semi) code, do it below */
             alert("Amount: " + amount + " and Currency: " + currency);
+            }
         }
     }
 
@@ -70,7 +76,7 @@ function MyForm() {
             <div className='col'>
                 <div className="input-group mb-3">
                     <span className="input-group-text">{symbol}</span>
-                    <span className="input-group-text">0.00</span>
+                    <span className="input-group-text">{amount}.00</span>
                     <input type="number" class="form-control" onChange={(e) => setAmount(e.target.value)} />
                 </div>
             </div>

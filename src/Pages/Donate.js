@@ -14,11 +14,7 @@ function Donate() {
                         <MyForm />
                     </div>
                     <div className='col'>
-                        <div className="input-group mb-3">
-                            <span className="input-group-text">K</span>
-                            <span className="input-group-text">0.00</span>
-                            <input type="number" class="form-control" id='user-donation' />
-                        </div>
+                         
                     </div>
 
                 </div>
