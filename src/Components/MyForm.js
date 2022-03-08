@@ -9,8 +9,19 @@ function MyForm() {
 
     const [symbol, setSymbol] = useState("K");
     function btnHandler(e) {
-        e.preventDefault();
-        alert("Amount: " + amount + " and Currency: " + currency);
+        e.preventDefault();//Prevent Browser from reloading
+        /**
+         * variables that you need are:
+         * amount and 
+         * currency.
+         */
+        if(amount==0){
+            alert('Please enter an amount')
+        }
+        else{
+            /** If you are writing any Backend(semi) code, do it below */
+            alert("Amount: " + amount + " and Currency: " + currency);
+        }
     }
 
     return (
