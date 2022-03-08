@@ -12,7 +12,6 @@ function Donate() {
                 <div className='row'>
                     <div className='col'>
                         <MyForm />
-                        <button className='btn btn-warning'>Donate</button>
                     </div>
                     <div className='col'>
                         <div className="input-group mb-3">

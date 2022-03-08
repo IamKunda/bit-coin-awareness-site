@@ -9,7 +9,11 @@ function Events(){
     return(
         <div>
             <TopNav/>
-            <p>This is the Events Page</p>
+            <div className='container'>
+                <div className='events-container'>
+                    <p className='h1'>Events!</p>
+                </div>
+            </div>
         </div>
     )
 }

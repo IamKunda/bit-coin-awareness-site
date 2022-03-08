@@ -21,6 +21,9 @@
 .custom-container{/* Simple Margin and Adjusted Padding*/
   margin-top: 4%;
 }
+.events-container{/* Top Container on Events Page*/
+  margin-top: 10%;
+}
 /*Small Screen adjustments*/
 @media screen and (max-width: 550px) {
   .mission-home{
@@ -29,5 +32,8 @@
   .donate-container{
     margin-top: 20%;
     border: 0; 
+  }
+  .events-container{
+    margin-top: 20%;
   }
 }
