@@ -1,20 +1,33 @@
-.mission-home{
+.mission-home{/* On Home Page*/
   background-color: #6D7993;
   margin-top: 10%;
   padding: 4%;
   border-radius: 1%;
 }
-.donation-home{
+.donation-home{/* On Home Page*/
   margin: 2%;
   padding: 4%;
 }
-.footer-icon{
+.donate-container{/* On Donate Page*/
+  margin-top: 10%;
+  border: 2px solid gray;
+  padding: 4%;
+  border-radius: 1px;
+}
+.footer-icon{/* On Footer Component*/
   width: 40px;
   height: auto;
 }
-
+.custom-container{/* Simple Margin and Adjusted Padding*/
+  margin-top: 4%;
+}
+/*Small Screen adjustments*/
 @media screen and (max-width: 550px) {
   .mission-home{
     margin-top: 20%;
+  }
+  .donate-container{
+    margin-top: 20%;
+    border: 0; 
   }
 }
